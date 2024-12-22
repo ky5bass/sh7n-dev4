@@ -27,7 +27,7 @@ function timingSafeEqual(a: string, b: string) {
 }
 
 interface Env {
-	SH7N_USER:     string;
+  SH7N_USER:     string;
   SH7N_PASSWORD: string;
 }
 export default {
