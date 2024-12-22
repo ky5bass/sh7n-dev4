@@ -27,16 +27,17 @@ function timingSafeEqual(a: string, b: string) {
 }
 
 interface Env {
-  PASSWORD: string;
+	SH7N_USER:     string;
+  SH7N_PASSWORD: string;
 }
 export default {
   async fetch(request, env): Promise<Response> {
-    const BASIC_USER = "admin";
+    const BASIC_USER = env.SH7N_USER ?? "admin";
 
     // You will need an admin password. This should be
     // attached to your Worker as an encrypted secret.
     // Refer to https://developers.cloudflare.com/workers/configuration/secrets/
-    const BASIC_PASS = env.PASSWORD ?? "password";
+    const BASIC_PASS = env.SH7N_PASSWORD ?? "password";
 
     const url = new URL(request.url);
 
