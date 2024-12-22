@@ -51,7 +51,7 @@ export default {
         // a popup in the browser, immediately asking for credentials again.
         return new Response("Logged out.", { status: 401 });
 
-      case "/admin": {
+      case "/login": {
         // The "Authorization" header is sent when authenticated.
         const authorization = request.headers.get("Authorization");
         if (!authorization) {
