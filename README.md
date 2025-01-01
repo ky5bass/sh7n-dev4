@@ -27,7 +27,7 @@ npm create cloudflare@latest        # Workersプロジェクトを作成
 vi wrangler.toml    # wrangler.tomlに追記
 # ↓を追記
 # # Workers Site
-# # Docs: https://developers.cloudflare.com/workers/configuration/sites/start-from-worker/
+# # 参考 https://developers.cloudflare.com/workers/configuration/sites/start-from-worker/
 # [site]
 # bucket = "./public" # the directory with your static assets
 npm install @cloudflare/kv-asset-handler --save-dev     # kv-asset-handlerをdevディレクトリにインストール

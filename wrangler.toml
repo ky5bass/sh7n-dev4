@@ -114,6 +114,6 @@ enabled = true
 # index_name = "my-index"
 
 # Workers Site
-# Docs: https://developers.cloudflare.com/workers/configuration/sites/start-from-worker/
+# 参考 https://developers.cloudflare.com/workers/configuration/sites/start-from-worker/
 [site]
 bucket = "./public" # the directory with your static assets
