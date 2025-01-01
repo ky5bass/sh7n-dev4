@@ -178,4 +178,4 @@ dist
 temp.d.ts
 
 # アセット
-# public/     # ←このdev環境ではignoreしない
+public/
