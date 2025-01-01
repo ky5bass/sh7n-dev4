@@ -175,7 +175,6 @@ dist
 
 # 一時ファイル
 .mytemp/
-temp.d.ts
 
 # アセット
 public/
