@@ -1,0 +1,31 @@
+# Taskfile.yaml
+# 参考 https://qiita.com/schrosis/items/12b4361c528819d13901
+# インストールコマンド(macOS): brew install go-task/tap/go-task
+# 文法に関する詳細: https://taskfile.dev/usage/
+
+version: '3'
+
+tasks:
+  gen:
+    cmds:
+      - rm -rf public/*
+      # 注 このTaskfile.yamlがあるディレクトリで実行されるため、この表記で問題なし。
+      - docker compose -f docker-compose.dev.1.yaml run --rm python
+
+  start:
+    cmds:
+      - rm -rf public/*
+      # 注 このTaskfile.yamlがあるディレクトリで実行されるため、この表記で問題なし。
+      - docker compose -f docker-compose.dev.1.yaml up -d
+
+  ls:
+    cmds:
+      - docker compose ls -a
+
+  logs:
+    cmds:
+      - docker compose -f docker-compose.dev.1.yaml logs python
+
+  stop:
+    cmds:
+      - docker compose -f docker-compose.dev.1.yaml down
