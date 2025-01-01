@@ -116,4 +116,4 @@ enabled = true
 # Workers Site
 # 参考 https://developers.cloudflare.com/workers/configuration/sites/start-from-worker/
 [site]
-bucket = "./public" # the directory with your static assets
+bucket = "./public"     # the directory with your static assets
