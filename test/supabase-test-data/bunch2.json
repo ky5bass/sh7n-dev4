@@ -1,0 +1,146 @@
+[
+  {
+    "number": 1,
+    "genre": "動物",
+    "question": "動物201",
+    "answer": "ここに動物201の説明が入る。"
+  },
+  {
+    "number": 2,
+    "genre": "動物",
+    "question": "動物202",
+    "answer": "ここに動物202の説明が入る。"
+  },
+  {
+    "number": 3,
+    "genre": "動物",
+    "question": "動物203",
+    "answer": "ここに動物203の説明が入る。"
+  },
+  {
+    "number": 4,
+    "genre": "動物",
+    "question": "動物204",
+    "answer": "ここに動物204の説明が入る。"
+  },
+  {
+    "number": 5,
+    "genre": "動物",
+    "question": "動物205",
+    "answer": "ここに動物205の説明が入る。"
+  },
+  {
+    "number": 6,
+    "genre": "動物",
+    "question": "動物206",
+    "answer": "ここに動物206の説明が入る。"
+  },
+  {
+    "number": 7,
+    "genre": "動物",
+    "question": "動物207",
+    "answer": "ここに動物207の説明が入る。"
+  },
+  {
+    "number": 8,
+    "genre": "動物",
+    "question": "動物208",
+    "answer": "ここに動物208の説明が入る。"
+  },
+  {
+    "number": 9,
+    "genre": "動物",
+    "question": "動物209",
+    "answer": "ここに動物209の説明が入る。"
+  },
+  {
+    "number": 10,
+    "genre": "動物",
+    "question": "動物210",
+    "answer": "ここに動物210の説明が入る。"
+  },
+  {
+    "number": 11,
+    "genre": "動物",
+    "question": "動物211",
+    "answer": "ここに動物211の説明が入る。"
+  },
+  {
+    "number": 12,
+    "genre": "動物",
+    "question": "動物212",
+    "answer": "ここに動物212の説明が入る。"
+  },
+  {
+    "number": 13,
+    "genre": "カトラリー",
+    "question": "カトラリー201",
+    "answer": "ここにカトラリー201の説明が入る。"
+  },
+  {
+    "number": 14,
+    "genre": "カトラリー",
+    "question": "カトラリー202",
+    "answer": "ここにカトラリー202の説明が入る。"
+  },
+  {
+    "number": 15,
+    "genre": "カトラリー",
+    "question": "カトラリー203",
+    "answer": "ここにカトラリー203の説明が入る。"
+  },
+  {
+    "number": 16,
+    "genre": "カトラリー",
+    "question": "カトラリー204",
+    "answer": "ここにカトラリー204の説明が入る。"
+  },
+  {
+    "number": 17,
+    "genre": "食べ物",
+    "question": "食べ物201",
+    "answer": "ここに食べ物201の説明が入る。"
+  },
+  {
+    "number": 18,
+    "genre": "食べ物",
+    "question": "食べ物202",
+    "answer": "ここに食べ物202の説明が入る。"
+  },
+  {
+    "number": 19,
+    "genre": "ことわざ",
+    "question": "ことわざ201",
+    "answer": "ここにことわざ201の説明が入る。"
+  },
+  {
+    "number": 20,
+    "genre": "ことわざ",
+    "question": "ことわざ202",
+    "answer": "ここにことわざ202の説明が入る。"
+  },
+  {
+    "number": 21,
+    "genre": "ことわざ",
+    "question": "ことわざ203",
+    "answer": "ここにことわざ203の説明が入る。"
+  },
+  {
+    "number": 22,
+    "genre": "世界遺産",
+    "question": "世界遺産201",
+    "answer": "ここに世界遺産201の説明が入る。"
+  },
+  {
+    "number": 23,
+    "genre": "世界遺産",
+    "question": "世界遺産202",
+    "answer": "ここに世界遺産202の説明が入る。"
+  },
+  {
+    "number": 24,
+    "genre": "惑星",
+    "question": "惑星201",
+    "answer": "ここに惑星201の説明が入る。"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "number": 1,
+    "genre": "動物",
+    "question": "動物501",
+    "answer": "ここに動物501の説明が入る。"
+  },
+  {
+    "number": 2,
+    "genre": "動物",
+    "question": "動物502",
+    "answer": "ここに動物502の説明が入る。"
+  },
+  {
+    "number": 3,
+    "genre": "動物",
+    "question": "動物503",
+    "answer": "ここに動物503の説明が入る。"
+  },
+  {
+    "number": 4,
+    "genre": "動物",
+    "question": "動物504",
+    "answer": "ここに動物504の説明が入る。"
+  },
+  {
+    "number": 5,
+    "genre": "動物",
+    "question": "動物505",
+    "answer": "ここに動物505の説明が入る。"
+  },
+  {
+    "number": 6,
+    "genre": "動物",
+    "question": "動物506",
+    "answer": "ここに動物506の説明が入る。"
+  },
+  {
+    "number": 7,
+    "genre": "動物",
+    "question": "動物507",
+    "answer": "ここに動物507の説明が入る。"
+  },
+  {
+    "number": 8,
+    "genre": "動物",
+    "question": "動物508",
+    "answer": "ここに動物508の説明が入る。"
+  },
+  {
+    "number": 9,
+    "genre": "動物",
+    "question": "動物509",
+    "answer": "ここに動物509の説明が入る。"
+  },
+  {
+    "number": 10,
+    "genre": "動物",
+    "question": "動物510",
+    "answer": "ここに動物510の説明が入る。"
+  },
+  {
+    "number": 11,
+    "genre": "動物",
+    "question": "動物511",
+    "answer": "ここに動物511の説明が入る。"
+  },
+  {
+    "number": 12,
+    "genre": "動物",
+    "question": "動物512",
+    "answer": "ここに動物512の説明が入る。"
+  },
+  {
+    "number": 13,
+    "genre": "カトラリー",
+    "question": "カトラリー501",
+    "answer": "ここにカトラリー501の説明が入る。"
+  },
+  {
+    "number": 14,
+    "genre": "カトラリー",
+    "question": "カトラリー502",
+    "answer": "ここにカトラリー502の説明が入る。"
+  },
+  {
+    "number": 15,
+    "genre": "カトラリー",
+    "question": "カトラリー503",
+    "answer": "ここにカトラリー503の説明が入る。"
+  },
+  {
+    "number": 16,
+    "genre": "カトラリー",
+    "question": "カトラリー504",
+    "answer": "ここにカトラリー504の説明が入る。"
+  },
+  {
+    "number": 17,
+    "genre": "食べ物",
+    "question": "食べ物501",
+    "answer": "ここに食べ物501の説明が入る。"
+  },
+  {
+    "number": 18,
+    "genre": "食べ物",
+    "question": "食べ物502",
+    "answer": "ここに食べ物502の説明が入る。"
+  },
+  {
+    "number": 19,
+    "genre": "ことわざ",
+    "question": "ことわざ501",
+    "answer": "ここにことわざ501の説明が入る。"
+  },
+  {
+    "number": 20,
+    "genre": "ことわざ",
+    "question": "ことわざ502",
+    "answer": "ここにことわざ502の説明が入る。"
+  },
+  {
+    "number": 21,
+    "genre": "ことわざ",
+    "question": "ことわざ503",
+    "answer": "ここにことわざ503の説明が入る。"
+  },
+  {
+    "number": 22,
+    "genre": "世界遺産",
+    "question": "世界遺産501",
+    "answer": "ここに世界遺産501の説明が入る。"
+  },
+  {
+    "number": 23,
+    "genre": "世界遺産",
+    "question": "世界遺産502",
+    "answer": "ここに世界遺産502の説明が入る。"
+  },
+  {
+    "number": 24,
+    "genre": "惑星",
+    "question": "惑星501",
+    "answer": "ここに惑星501の説明が入る。"
+  }
+]

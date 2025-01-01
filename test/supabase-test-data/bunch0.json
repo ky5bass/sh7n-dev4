@@ -1,0 +1,146 @@
+[
+  {
+    "number": 1,
+    "genre": "動物",
+    "question": "コアラ",
+    "answer": "ここにコアラの説明が入る。"
+  },
+  {
+    "number": 2,
+    "genre": "動物",
+    "question": "動物002",
+    "answer": "ここに動物002の説明が入る。"
+  },
+  {
+    "number": 3,
+    "genre": "動物",
+    "question": "動物003",
+    "answer": "ここに動物003の説明が入る。"
+  },
+  {
+    "number": 4,
+    "genre": "動物",
+    "question": "動物004",
+    "answer": "ここに動物004の説明が入る。"
+  },
+  {
+    "number": 5,
+    "genre": "動物",
+    "question": "動物005",
+    "answer": "ここに動物005の説明が入る。"
+  },
+  {
+    "number": 6,
+    "genre": "動物",
+    "question": "動物006",
+    "answer": "ここに動物006の説明が入る。"
+  },
+  {
+    "number": 7,
+    "genre": "動物",
+    "question": "動物007",
+    "answer": "ここに動物007の説明が入る。"
+  },
+  {
+    "number": 8,
+    "genre": "動物",
+    "question": "動物008",
+    "answer": "ここに動物008の説明が入る。"
+  },
+  {
+    "number": 9,
+    "genre": "動物",
+    "question": "動物009",
+    "answer": "ここに動物009の説明が入る。"
+  },
+  {
+    "number": 10,
+    "genre": "動物",
+    "question": "動物010",
+    "answer": "ここに動物010の説明が入る。"
+  },
+  {
+    "number": 11,
+    "genre": "動物",
+    "question": "動物011",
+    "answer": "ここに動物011の説明が入る。"
+  },
+  {
+    "number": 12,
+    "genre": "動物",
+    "question": "動物012",
+    "answer": "ここに動物012の説明が入る。"
+  },
+  {
+    "number": 13,
+    "genre": "カトラリー",
+    "question": "スプーン",
+    "answer": "ここにスプーンの説明が入る。"
+  },
+  {
+    "number": 14,
+    "genre": "カトラリー",
+    "question": "カトラリー002",
+    "answer": "ここにカトラリー002の説明が入る。"
+  },
+  {
+    "number": 15,
+    "genre": "カトラリー",
+    "question": "カトラリー003",
+    "answer": "ここにカトラリー003の説明が入る。"
+  },
+  {
+    "number": 16,
+    "genre": "カトラリー",
+    "question": "カトラリー004",
+    "answer": "ここにカトラリー004の説明が入る。"
+  },
+  {
+    "number": 17,
+    "genre": "食べ物",
+    "question": "目玉焼き",
+    "answer": "ここに目玉焼きの説明が入る。"
+  },
+  {
+    "number": 18,
+    "genre": "食べ物",
+    "question": "食べ物002",
+    "answer": "ここに食べ物002の説明が入る。"
+  },
+  {
+    "number": 19,
+    "genre": "ことわざ",
+    "question": "船頭多くして船山に登る",
+    "answer": "ここに船頭多くして船山に登るの説明が入る。"
+  },
+  {
+    "number": 20,
+    "genre": "ことわざ",
+    "question": "ことわざ002",
+    "answer": "ここにことわざ002の説明が入る。"
+  },
+  {
+    "number": 21,
+    "genre": "ことわざ",
+    "question": "ことわざ003",
+    "answer": "ここにことわざ003の説明が入る。"
+  },
+  {
+    "number": 22,
+    "genre": "世界遺産",
+    "question": "マチュピチュ",
+    "answer": "ここにマチュピチュの説明が入る。"
+  },
+  {
+    "number": 23,
+    "genre": "世界遺産",
+    "question": "世界遺産002",
+    "answer": "ここに世界遺産002の説明が入る。"
+  },
+  {
+    "number": 24,
+    "genre": "惑星",
+    "question": "地球",
+    "answer": "ここに地球の説明が入る。"
+  }
+]

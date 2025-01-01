@@ -1,0 +1,44 @@
+{
+  "sun": {
+    "id": 0,
+    "cards_updated_at": "2024-12-08",
+    "name_ja": "日曜日",
+    "name": "Sunday"
+  },
+  "mon": {
+    "id": 1,
+    "cards_updated_at": "2024-12-09",
+    "name_ja": "月曜日",
+    "name": "Monday"
+  },
+  "tue": {
+    "id": 2,
+    "cards_updated_at": "2024-12-10",
+    "name_ja": "火曜日",
+    "name": "Tuesday"
+  },
+  "wed": {
+    "id": 3,
+    "cards_updated_at": "2024-12-04",
+    "name_ja": "水曜日",
+    "name": "Wednesday"
+  },
+  "thu": {
+    "id": 4,
+    "cards_updated_at": "2024-12-05",
+    "name_ja": "木曜日",
+    "name": "Thursday"
+  },
+  "fri": {
+    "id": 5,
+    "cards_updated_at": "2024-12-06",
+    "name_ja": "金曜日",
+    "name": "Friday"
+  },
+  "sat": {
+    "id": 6,
+    "cards_updated_at": "2024-12-07",
+    "name_ja": "土曜日",
+    "name": "Saturday"
+  }
+}
