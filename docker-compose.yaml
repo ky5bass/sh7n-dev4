@@ -1,0 +1,12 @@
+services:
+  python:
+    build: .
+    env_file:
+      - ./.dev.vars
+    volumes:
+      - ./main.py:/myproject/main.py:ro
+      - ./public/:/myproject/public/
+      - ./static/:/myproject/static/:ro
+      - ./templates/:/myproject/templates/:ro
+      - ./test/:/myproject/test/:ro
+    command: python3 /myproject/main.py
