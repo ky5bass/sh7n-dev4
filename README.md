@@ -51,7 +51,7 @@ vi docker-compose.dev.1.yaml                  # ファイル作成(内容は略)
 vi docker-compose.yaml                        # ファイル編集(内容は略)
 vi Makefile                                   # ファイル編集(内容は略)
 vi requirements.dev.1.txt                     # ファイル作成(内容は略)
-vi Taskfile.yaml                              # ファイル作成(内容は略)
+vi Taskfile.yml                               # ファイル作成(内容は略)
 npx wrangler deploy     # 初めてのデプロイ
                         # (手早くリモート上にプロジェクトを作成するために一度だけ実行。
                         #  ただし、シークレットが未登録のためデプロイは失敗するだろう。
