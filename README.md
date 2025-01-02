@@ -100,5 +100,3 @@ npm ci
 vi .dev.vars
 task gen
 ```
-
-# TODO: デプロイフックを取得してsh7n-daily-deployに渡す
