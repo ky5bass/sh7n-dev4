@@ -87,3 +87,13 @@ npx wrangler deploy     # 初めてのデプロイ(手早くリモート上に�
           値: 値が暗号化されました
     ビルド キャッシュ: 無効
 ```
+
+## Gitクローンから始める場合
+
+```zsh
+git clone git@github.com:ky5bass/sh7n-dev4.git  # Gitクローン
+cd sh7n-dev4
+npm ci
+vi .dev.vars
+task gen
+```
