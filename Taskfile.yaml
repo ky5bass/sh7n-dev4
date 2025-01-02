@@ -29,3 +29,7 @@ tasks:
   stop:
     cmds:
       - docker compose -f docker-compose.dev.1.yaml down
+  
+  server:
+    cmds:
+      - npx wrangler dev
