@@ -1,0 +1,20 @@
+name: Daily Build Trigger
+# Cloudflare Workersにおけるビルドを誘発する
+on:
+  # 参考 https://qiita.com/cardene/items/67d31f13d27865a12ecf#設定
+  schedule:
+    - cron: '0 21 * * *'  # 日本時間AM6:00
+    - cron: '50 * * * *'
+jobs:
+  build-trigger:
+    # 参考 https://github.com/actions/checkout?tab=readme-ov-file#push-a-commit-using-the-built-in-token
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          date > .build-trigger
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "chore: update build-trigger file (by GitHub Actions)"
+          git push
