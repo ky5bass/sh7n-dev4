@@ -4,7 +4,7 @@ on:
   # 参考 https://qiita.com/cardene/items/67d31f13d27865a12ecf#設定
   schedule:
     - cron: '0 21 * * *'  # 日本時間AM6:00
-    - cron: '50 * * * *'
+    - cron: '0 * * * *'
 jobs:
   build-trigger:
     # 参考 https://github.com/actions/checkout?tab=readme-ov-file#push-a-commit-using-the-built-in-token
