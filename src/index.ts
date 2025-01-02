@@ -49,12 +49,12 @@ interface Env {
 }
 export default {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
-    const BASIC_USER = env.SH7N_USER ?? "admin";
+    const BASIC_USER = env.SH7N_USER;
     
     // You will need an admin password. This should be
     // attached to your Worker as an encrypted secret.
     // Refer to https://developers.cloudflare.com/workers/configuration/secrets/
-    const BASIC_PASS = env.SH7N_PASSWORD ?? "password";
+    const BASIC_PASS = env.SH7N_PASSWORD;
     
     // The "Authorization" header is sent when authenticated.
     if (request.headers.has("Authorization")) {
