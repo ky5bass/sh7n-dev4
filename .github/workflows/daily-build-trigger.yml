@@ -4,8 +4,7 @@ on:
   # 定期実行
   # 参考 https://qiita.com/cardene/items/67d31f13d27865a12ecf#設定
   schedule:
-    # - cron: '0 21 * * *'  # 日本時間AM6:00
-    - cron: '41 * * * *'
+    - cron: '0 21 * * *'  # 日本時間AM6:00
   # 手動実行
   # 参考 https://qiita.com/chihiro/items/8b2918ceb709cb9079e8
   workflow_dispatch:
