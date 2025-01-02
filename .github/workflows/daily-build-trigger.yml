@@ -1,10 +1,15 @@
 name: Daily Build Trigger
 # Cloudflare Workersにおけるビルドを誘発する
 on:
+  # 定期実行
   # 参考 https://qiita.com/cardene/items/67d31f13d27865a12ecf#設定
   schedule:
     - cron: '0 21 * * *'  # 日本時間AM6:00
-    - cron: '0 * * * *'
+    - cron: '6 * * * *'
+  # 手動実行
+  # 参考 https://qiita.com/chihiro/items/8b2918ceb709cb9079e8
+  workflow_dispatch:
+
 jobs:
   build-trigger:
     # 参考 https://github.com/actions/checkout?tab=readme-ov-file#push-a-commit-using-the-built-in-token
