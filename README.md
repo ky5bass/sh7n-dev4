@@ -23,6 +23,8 @@ npm create cloudflare@latest        # Workersプロジェクトを作成
 
 参考: https://developers.cloudflare.com/workers/configuration/sites/start-from-worker/
 
+### 1. ローカルで以下のコマンドを実行
+
 ```zsh
 vi wrangler.toml    # wrangler.tomlに追記
 # ↓を追記
@@ -31,5 +33,57 @@ vi wrangler.toml    # wrangler.tomlに追記
 # [site]
 # bucket = "./public" # the directory with your static assets
 npm install @cloudflare/kv-asset-handler --save-dev     # kv-asset-handlerをdevディレクトリにインストール
-npx wrangler deploy
+SH7N_DEV_CONFIG=$HOME/dev/sh7n-bundle/sh7n-dev3
+cp -r $SH7N_DEV_CONFIG/static ¥
+      $SH7N_DEV_CONFIG/templates ¥
+      $SH7N_DEV_CONFIG/docker-compose.yaml ¥
+      $SH7N_DEV_CONFIG/Dockerfile ¥
+      $SH7N_DEV_CONFIG/main.dev1.py ¥
+      $SH7N_DEV_CONFIG/main.py ¥
+      $SH7N_DEV_CONFIG/Makefile ¥
+      $SH7N_DEV_CONFIG/requirements.txt .
+mv main.dev1.py main.dev.1.py   # 名称変更
+vi src/index.ts                 # ファイル編集(内容は略)
+vi .dev.vars                    # ファイル作成(内容は略)
+vi docker-compose.dev.1.yaml    # ファイル作成(内容は略)
+vi docker-compose.yaml          # ファイル編集(内容は略)
+vi Makefile                     # ファイル編集(内容は略)
+vi requirements.dev.1.txt       # ファイル作成(内容は略)
+vi Taskfile.yaml                # ファイル作成(内容は略)
+npx wrangler deploy     # 初めてのデプロイ(手早くリモート上にプロジェクトを作成するためであり、
+                        #                  以降はこのようにローカルからはデプロイしない)
+```
+
+### 2. ダッシュボードで以下の作業を行う
+
+ダッシュボードの「設定」で以下の設定を行う
+```yaml
+変数とシークレット:
+    - タイプ: シークレット
+      名前: SH7N_PASSWORD
+      値: 値が暗号化されました  # 注 適切な値に変更すること。以降も同様。
+    - タイプ: シークレット
+      名前: SH7N_USER
+      値: 値が暗号化されました
+
+ビルド(ベータ版):
+    Git リポジトリ: ky5bass/sh7n-dev4
+    ビルド構成:
+        ビルド コマンド: make build
+        デプロイ コマンド: npx wrangler deploy
+        ルート ディレクトリ: /
+    ブランチ コントロール:
+        プロダクション ブランチ: main
+    監視パスを構築する:
+        パスを含む: *
+    API トークン:
+        名前: Workers Builds - 2024-12-10 01:17
+    変数とシークレット:
+        - タイプ: シークレット
+          名前: SUPABASE_KEY
+          値: 値が暗号化されました
+        - タイプ: シークレット
+          名前: SUPABASE_URL
+          値: 値が暗号化されました
+    ビルド キャッシュ: 無効
 ```
