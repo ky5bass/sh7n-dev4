@@ -34,24 +34,27 @@ vi wrangler.toml    # wrangler.tomlに追記
 # bucket = "./public" # the directory with your static assets
 npm install @cloudflare/kv-asset-handler --save-dev     # kv-asset-handlerをdevディレクトリにインストール
 SH7N_DEV_CONFIG=$HOME/dev/sh7n-bundle/sh7n-dev3
-cp -r $SH7N_DEV_CONFIG/static ¥
-      $SH7N_DEV_CONFIG/templates ¥
-      $SH7N_DEV_CONFIG/docker-compose.yaml ¥
-      $SH7N_DEV_CONFIG/Dockerfile ¥
-      $SH7N_DEV_CONFIG/main.dev1.py ¥
-      $SH7N_DEV_CONFIG/main.py ¥
-      $SH7N_DEV_CONFIG/Makefile ¥
+cp -r $SH7N_DEV_CONFIG/static \
+      $SH7N_DEV_CONFIG/templates \
+      $SH7N_DEV_CONFIG/docker-compose.yaml \
+      $SH7N_DEV_CONFIG/Dockerfile \
+      $SH7N_DEV_CONFIG/main.dev1.py \
+      $SH7N_DEV_CONFIG/main.py \
+      $SH7N_DEV_CONFIG/Makefile \
       $SH7N_DEV_CONFIG/requirements.txt .
 mv main.dev1.py main.dev.1.py   # 名称変更
-vi src/index.ts                 # ファイル編集(内容は略)
-vi .dev.vars                    # ファイル作成(内容は略)
-vi docker-compose.dev.1.yaml    # ファイル作成(内容は略)
-vi docker-compose.yaml          # ファイル編集(内容は略)
-vi Makefile                     # ファイル編集(内容は略)
-vi requirements.dev.1.txt       # ファイル作成(内容は略)
-vi Taskfile.yaml                # ファイル作成(内容は略)
-npx wrangler deploy     # 初めてのデプロイ(手早くリモート上にプロジェクトを作成するためであり、
-                        #                  以降はこのようにローカルからはデプロイしない)
+mkdir .github/workflows                       # ディレクトリ作成
+vi .github/workflows/daily-build-trigger.yml  # ファイル作成(内容は略)
+vi src/index.ts                               # ファイル編集(内容は略)
+vi .dev.vars                                  # ファイル作成(内容は略)
+vi docker-compose.dev.1.yaml                  # ファイル作成(内容は略)
+vi docker-compose.yaml                        # ファイル編集(内容は略)
+vi Makefile                                   # ファイル編集(内容は略)
+vi requirements.dev.1.txt                     # ファイル作成(内容は略)
+vi Taskfile.yaml                              # ファイル作成(内容は略)
+npx wrangler deploy     # 初めてのデプロイ
+                        # (手早くリモート上にプロジェクトを作成するために一度だけ実行(デプロイは失敗するだろう)。
+                        #  以降はこのようにローカルからはデプロイしない)
 ```
 
 ### 2. ダッシュボードで以下の作業を行う
@@ -97,3 +100,5 @@ npm ci
 vi .dev.vars
 task gen
 ```
+
+# TODO: デプロイフックを取得してsh7n-daily-deployに渡す
