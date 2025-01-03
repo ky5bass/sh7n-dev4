@@ -15,6 +15,10 @@ tasks:
       # 注 このTaskfile.ymlがあるディレクトリで実行されるため、この表記で問題なし。
       - docker compose -f $COMPOSE_FILENAME run --rm python
 
+  rebuild:
+    cmds:
+      - docker compose -f $COMPOSE_FILENAME build --no-cache
+
   start:
     cmds:
       - rm -rf public/*
