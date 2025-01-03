@@ -5,18 +5,21 @@
 
 version: '3'
 
+env:
+  COMPOSE_FILENAME: docker-compose.dev.1.yaml
+
 tasks:
   gen:
     cmds:
       - rm -rf public/*
       # 注 このTaskfile.ymlがあるディレクトリで実行されるため、この表記で問題なし。
-      - docker compose -f docker-compose.dev.1.yaml run --rm python
+      - docker compose -f $COMPOSE_FILENAME run --rm python
 
   start:
     cmds:
       - rm -rf public/*
       # 注 このTaskfile.ymlがあるディレクトリで実行されるため、この表記で問題なし。
-      - docker compose -f docker-compose.dev.1.yaml up -d
+      - docker compose -f $COMPOSE_FILENAME up -d
 
   ls:
     cmds:
@@ -24,11 +27,11 @@ tasks:
 
   logs:
     cmds:
-      - docker compose -f docker-compose.dev.1.yaml logs python
+      - docker compose -f $COMPOSE_FILENAME logs python
 
   stop:
     cmds:
-      - docker compose -f docker-compose.dev.1.yaml down
+      - docker compose -f $COMPOSE_FILENAME down
   
   server:
     cmds:
