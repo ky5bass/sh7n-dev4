@@ -6,7 +6,8 @@
 version: '3'
 
 env:
-  COMPOSE_FILENAME: docker-compose.dev.1.yaml
+  COMPOSE_FILENAME:     docker-compose.dev.1.yaml
+  COMPOSE_FILENAME_STG: docker-compose.yaml
 
 tasks:
   gen:
@@ -14,6 +15,11 @@ tasks:
       - rm -rf public/*
       # 注 このTaskfile.ymlがあるディレクトリで実行されるため、この表記で問題なし。
       - docker compose -f $COMPOSE_FILENAME run --rm python
+
+  gen-stg:
+    cmds:
+      - rm -rf public/*
+      - docker compose -f $COMPOSE_FILENAME_STG run --rm python
 
   rebuild:
     cmds:
